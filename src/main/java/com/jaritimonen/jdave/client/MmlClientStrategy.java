@@ -27,7 +27,7 @@ public enum MmlClientStrategy {
         }
     };
 
-    abstract MmlClient create();
+    public abstract MmlClient create();
 }
 
 
